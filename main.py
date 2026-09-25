@@ -8,11 +8,11 @@ for i in range(10000000000000):
 		break
 	
 	if i<0:
-		key="-"
-		num = 20 + int(i)
+		key="\\"
+		num = 30 + int(i)
 	else:
-		key="*"
-		num = 20
+		key="/"
+		num = 30
 	print(" "*num+key*int(np.abs(i)))
 
 exit()
