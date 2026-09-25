@@ -9,8 +9,10 @@ for i in range(10000000000000):
 	
 	if i<0:
 		key="-"
+		num = 20 + int(i)
 	else:
 		key="*"
-	print("*"*int(np.abs(i)))
+		num = 20
+	print(" "*num+key*int(np.abs(i)))
 
 exit()
